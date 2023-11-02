@@ -1,0 +1,78 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.hidden {
+    display: none;
+
+}
+
+.header__nav {
+    margin-bottom: 40px;
+    font-family: "OldOakAP", sans-serif;
+    border-radius: 0px 0px 12px 12px;
+    border: 1px solid #000;
+
+    background: rgba(57, 25, 13, 0.95);
+}
+
+.header__navbar-brand,
+.header__nav-link {
+    color: rgba(194, 185, 44, 0.71) !important;
+}
+
+.header__navbar-brand {
+    font-size: 45px;
+}
+
+.header__nav-link {
+    text-shadow: 1px 2px 4px rgba(16, 14, 14, 0.51);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.header__dropdown-menu {
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #000;
+    background: rgba(57, 25, 13, 0.77);
+}
+
+.header__dropdown-item {
+    color: rgba(194, 185, 44, 0.71);
+}
+
+.header__column {
+    width: calc(100% / 3);
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.logo__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.navbar-nav .nav-link.active {
+    color: #C2B92C !important;
+
+    text-shadow: 1px 2px 4px rgba(16, 14, 14, 0.51);
+    font-family: OldOakAP;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: underline;
+}

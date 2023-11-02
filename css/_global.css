@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.vissually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("../img/bg_main_v1.png");
+    min-width: 320px;
+    /* font-family: "OldOakAP", sans-serif; */
+    font-size: var(--default-fs);
+    font-weight: var(--regular);
+    font-style: normal;
+    line-height: var(--default-lh);
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: var(--container-padding);
+    padding-left: var(--container-padding);
+}

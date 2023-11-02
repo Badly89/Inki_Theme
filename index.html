@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Сайт клана Инквизиции</title>
 </head>
+
 <body>
-    
+    <header class=" container ">
+        <div class="header">
+            <div class="banner header__column"></div>
+            <div class="logo__navbar header__column">
+                <nav class="navbar navbar-expand-lg header__nav sticky" id="header__navbar">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Переключатель навигации">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item header__nav-item">
+                                    <a class="nav-link header__nav-link active" aria-current="page" href="#">Главная</a>
+                                </li>
+                                <li class="nav-item header__nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle header__nav-link" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Клан</a>
+                                    <ul class="dropdown-menu header__dropdown-menu">
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Состав</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item " href="#">Устав</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Вступление</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Дипломатия</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">История</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Образы</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Чемпионат арены</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item header__nav-item">
+                                    <a class="nav-link header__nav-link" href="#">Форум</a>
+                                </li>
+                                <li class="nav-item header__nav-item">
+                                    <a class="nav-link header__nav-link" href="#">Примерочная</a>
+                                </li>
+                                <li class="nav-item header__nav-item">
+                                    <a class="nav-link header__nav-link" href="#">Осады</a>
+                                </li>
+                                <li class="nav-item  dropdown header__nav-item">
+                                    <a class="nav-link  dropdown-toggle header__nav-link " href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Ресурсы Apeha</a>
+
+                                    <ul class="dropdown-menu header__dropdown-menu">
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Apeha.ru</a></li>
+                                        <li><a class="dropdown-item header__dropdown-item " href="#">Рейтинг кланов</a>
+                                        </li>
+
+                                        <li><a class="dropdown-item header__dropdown-item" href="#">Библиотека арены</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a class="navbar-brand header__navbar-brand hidden" id="brand" href="#">Инквизиция</a>
+                    </div>
+                </nav>
+                <a href="#" class="logo__title" id="logo"><img src="./img/logo.svg" alt=""></a>
+            </div>
+            <div class="auth header__column">Блок авторизации + регистрации</div>
+
+        </div>
+    </header>
+
+    <main class="content container">
+
+        <div class="list__news content__column">
+            <div class="post_news">
+                <h2 class="header__post">
+                    Заголовок новости
+                </h2>
+                <div class="body__post">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, velit asperiores
+                    similique aliquid expedita, harum iusto nam sunt quibusdam aspernatur veritatis aut earum quos ad
+                    natus! Molestiae ut mollitia aspernatur? Odit corporis aspernatur tenetur delectus alias ipsam iusto
+                    asperiores. Minus, nobis sapiente? Cupiditate expedita quia velit natus consequuntur vero
+                    praesentium officiis perferendis enim voluptates esse ab saepe accusamus, totam reiciendis minus
+                    sapiente quisquam laudantium perspiciatis delectus fugiat placeat? Eveniet voluptatibus delectus
+                    voluptate dignissimos ipsum laboriosam quasi hic sapiente ipsa, quidem velit quibusdam itaque
+                    mollitia consequuntur odit iste pariatur ut deserunt ratione. Consequatur nam perspiciatis eveniet
+                    iure iusto asperiores ipsam deleniti voluptate dolor, sit reprehenderit corrupti unde nobis nesciunt
+                    sapiente voluptatem harum magni? Quaerat illum rerum, tempore quia rem modi veritatis illo eaque,
+                    aliquam totam soluta doloribus facilis vel dolores repellat fuga at hic dignissimos sapiente
+                    recusandae quam quasi magnam itaque ea. Alias sapiente dolore nemo! Laborum in iste libero dicta?
+                </div>
+
+            </div>
+            <div class="post_news">
+                <h2 class="header__post">
+                    Заголовок новости
+                </h2>
+                <div class="body__post">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, velit asperiores
+                    similique aliquid expedita, harum iusto nam sunt quibusdam aspernatur veritatis aut earum quos ad
+                    natus! Molestiae ut mollitia aspernatur? Odit corporis aspernatur tenetur delectus alias ipsam iusto
+                    asperiores. Minus, nobis sapiente? Cupiditate expedita quia velit natus consequuntur vero
+                    praesentium officiis perferendis enim voluptates esse ab saepe accusamus, totam reiciendis minus
+                    sapiente quisquam laudantium perspiciatis delectus fugiat placeat? Eveniet voluptatibus delectus
+                    voluptate dignissimos ipsum laboriosam quasi hic sapiente ipsa, quidem velit quibusdam itaque
+                    mollitia consequuntur odit iste pariatur ut deserunt ratione. Consequatur nam perspiciatis eveniet
+                    iure iusto asperiores ipsam deleniti voluptate dolor, sit reprehenderit corrupti unde nobis nesciunt
+                    sapiente voluptatem harum magni? Quaerat illum rerum, tempore quia rem modi veritatis illo eaque,
+                    aliquam totam soluta doloribus facilis vel dolores repellat fuga at hic dignissimos sapiente
+                    recusandae quam quasi magnam itaque ea. Alias sapiente dolore nemo! Laborum in iste libero dicta?
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.min.js"></script>
+
 </body>
+
 </html>

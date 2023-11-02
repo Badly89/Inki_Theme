@@ -1,0 +1,26 @@
+:root {
+    /* Fonts */
+    --montserrat: "OldOakAP";
+    --regular: 400;
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+    --default-fs: 16px;
+    --default-lh: 32px;
+    /*  color */
+    --dark: #333333;
+    --white: #ffffff;
+    --orange: #ff9900;
+    --hover-focus: #ffb84d;
+    --orange-dark: #e1670e;
+    --black: #000000;
+    --grey: #666666;
+    --grey-blue: #4f6b8b;
+    --light-grey: #cacaca;
+    /* container */
+    --container-max-width: 1870px;
+    --container-padding: 50px;
+    /* transition */
+    --short: 0.3s;
+}
