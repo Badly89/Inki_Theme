@@ -20,18 +20,19 @@ html {
 }
 
 body {
-    background-image: url("../img/bg_main_v1.png");
+
+    background: url("../img/monk_left.webp"), url("../img/monk_right.webp"), url("../img/bg_main.webp");
     min-width: 320px;
     /* font-family: "OldOakAP", sans-serif; */
     font-size: var(--default-fs);
     font-weight: var(--regular);
     font-style: normal;
     line-height: var(--default-lh);
+    background-size: auto;
     background-color: var(--white);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-position: center center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* height: 100vmax; */
+    background-position: center left, right center, center center;
     background-attachment: fixed;
 
 }
