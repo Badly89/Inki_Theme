@@ -1,6 +1,6 @@
-@import url("./_fonts.css");
-@import url("./_variables.css");
-@import url("./_global.css");
-@import url("./_header.css");
-@import url("./_content.css");
+@import url("./fonts.css");
+@import url("./variables.css");
+@import url("./global.css");
+@import url("./header.css");
+@import url("./content.css");
 @import url("./animate.min.css");/*# sourceMappingURL=style.css.map */
