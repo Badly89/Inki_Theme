@@ -21,7 +21,7 @@ html {
 
 body {
 
-    background: url("../img/monk_left.webp"), url("../img/monk_right.webp"), url("../img/bg_main.webp");
+    background: url("../img/bg_main_v1.webp");
     min-width: 320px;
     /* font-family: "OldOakAP", sans-serif; */
     font-size: var(--default-fs);
@@ -30,9 +30,9 @@ body {
     line-height: var(--default-lh);
     background-size: auto;
     background-color: var(--white);
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
     /* height: 100vmax; */
-    background-position: center left, right center, center center;
+    background-position: center center;
     background-attachment: fixed;
 
 }
@@ -43,4 +43,9 @@ body {
     margin-left: auto;
     padding-right: var(--container-padding);
     padding-left: var(--container-padding);
+}
+
+.btn-reset {
+    padding: 0;
+
 }

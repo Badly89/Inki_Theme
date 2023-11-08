@@ -11,6 +11,7 @@
 }
 
 .header__nav {
+
     margin-bottom: 40px;
     font-family: "OldOakAP", sans-serif;
     border-radius: 0px 0px 12px 12px;
@@ -36,7 +37,12 @@
     line-height: 16px;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-top: 8px;
+}
+
 .header__dropdown-menu {
+
     border-radius: 0px 0px 10px 10px;
     border: 1px solid #000;
     background: rgba(57, 25, 13, 0.77);
@@ -62,6 +68,87 @@
     align-items: center;
 
 
+}
+
+.logo__title {
+    color: #956600;
+
+    text-shadow: 2px 4px 4px rgb(255, 253, 253);
+    font-family: OldOakAP;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ts {
+    font-size: 154px;
+    color: #FFFFFF;
+    text-shadow:
+        -0 -7px 0 #956600,
+        0 -7px 0 #956600,
+        -0 7px 0 #956600,
+        0 7px 0 #956600,
+        -7px -0 0 #956600,
+        7px -0 0 #956600,
+        -7px 0 0 #956600,
+        7px 0 0 #956600,
+        -1px -7px 0 #956600,
+        1px -7px 0 #956600,
+        -1px 7px 0 #956600,
+        1px 7px 0 #956600,
+        -7px -1px 0 #956600,
+        7px -1px 0 #956600,
+        -7px 1px 0 #956600,
+        7px 1px 0 #956600,
+        -2px -7px 0 #956600,
+        2px -7px 0 #956600,
+        -2px 7px 0 #956600,
+        2px 7px 0 #956600,
+        -7px -2px 0 #956600,
+        7px -2px 0 #956600,
+        -7px 2px 0 #956600,
+        7px 2px 0 #956600,
+        -3px -7px 0 #956600,
+        3px -7px 0 #956600,
+        -3px 7px 0 #956600,
+        3px 7px 0 #956600,
+        -7px -3px 0 #956600,
+        7px -3px 0 #956600,
+        -7px 3px 0 #956600,
+        7px 3px 0 #956600,
+        -4px -7px 0 #956600,
+        4px -7px 0 #956600,
+        -4px 7px 0 #956600,
+        4px 7px 0 #956600,
+        -7px -4px 0 #956600,
+        7px -4px 0 #956600,
+        -7px 4px 0 #956600,
+        7px 4px 0 #956600,
+        -5px -7px 0 #956600,
+        5px -7px 0 #956600,
+        -5px 7px 0 #956600,
+        5px 7px 0 #956600,
+        -7px -5px 0 #956600,
+        7px -5px 0 #956600,
+        -7px 5px 0 #956600,
+        7px 5px 0 #956600,
+        -6px -7px 0 #956600,
+        6px -7px 0 #956600,
+        -6px 7px 0 #956600,
+        6px 7px 0 #956600,
+        -7px -6px 0 #956600,
+        7px -6px 0 #956600,
+        -7px 6px 0 #956600,
+        7px 6px 0 #956600,
+        -7px -7px 0 #956600,
+        7px -7px 0 #956600,
+        -7px 7px 0 #956600,
+        7px 7px 0 #956600,
+        -7px -7px 0 #956600,
+        7px -7px 0 #956600,
+        -7px 7px 0 #956600,
+        7px 7px 0 #956600;
 }
 
 .navbar-nav .nav-link.active {
@@ -90,14 +177,37 @@
 }
 
 .banner {
-    position: absolute;
-    top: 60px;
-    left: 90px;
-    width: 265px;
-    position: fixed;
+    /* position: absolute; */
+    /* top: 60px; */
+    /* left: 90px; */
+    /* width: 265px; */
+    /* position: fixed; */
 
 }
 
 .navbar-toggler {
     background-color: #956600;
+}
+
+.auth__label {
+    color: #C2B92C !important;
+    font-family: OldOakAP;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.auth__title {
+    font-family: OldOakAP;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.form-text {
+    color: #C2B92C !important;
+    font-family: OldOakAP;
+    font-size: 14px;
 }
