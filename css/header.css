@@ -10,10 +10,8 @@
 
 }
 
-
-
 .header__logo-banner {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .header__nav {
@@ -50,8 +48,7 @@
     margin-top: 8px;
 }
 
-.header__dropdown-menu,
-    {
+.header__dropdown-menu {
 
     border-radius: 0px 0px 10px 10px;
     border: 1px solid #000;
