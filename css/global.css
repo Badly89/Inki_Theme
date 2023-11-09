@@ -20,7 +20,6 @@ html {
 }
 
 body {
-
     background: url("../img/bg_main_v1.webp");
     min-width: 320px;
     /* font-family: "OldOakAP", sans-serif; */
@@ -28,7 +27,7 @@ body {
     font-weight: var(--regular);
     font-style: normal;
     line-height: var(--default-lh);
-    background-size: auto;
+    background-size: cover;
     background-color: var(--white);
     background-repeat: no-repeat;
     /* height: 100vmax; */
@@ -37,13 +36,13 @@ body {
 
 }
 
-.container {
+/* .container {
     max-width: var(--container-max-width);
     margin-right: auto;
     margin-left: auto;
     padding-right: var(--container-padding);
-    padding-left: var(--container-padding);
-}
+    padding-left: var(--container-padding); 
+}*/
 
 .btn-reset {
     padding: 0;
