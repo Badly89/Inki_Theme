@@ -10,8 +10,16 @@
 
 }
 
-.header__nav {
 
+
+.header__logo-banner {
+    margin-top: 70px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 40px;
     font-family: "OldOakAP", sans-serif;
     border-radius: 0px 0px 12px 12px;
@@ -26,6 +34,7 @@
 }
 
 .header__navbar-brand {
+
     font-size: 45px;
 }
 
@@ -41,12 +50,15 @@
     margin-top: 8px;
 }
 
-.header__dropdown-menu {
+.header__dropdown-menu,
+    {
 
     border-radius: 0px 0px 10px 10px;
     border: 1px solid #000;
     background: rgba(57, 25, 13, 0.77);
 }
+
+
 
 .header__dropdown-item {
     color: rgba(194, 185, 44, 0.71);
@@ -71,6 +83,7 @@
 }
 
 .logo__title {
+    margin-bottom: 55px;
     color: #956600;
 
     text-shadow: 2px 4px 4px rgb(255, 253, 253);
@@ -162,52 +175,27 @@
     text-decoration: underline;
 }
 
-.banner__sticky {
-    position: sticky;
-    top: 160px;
-}
-
-.inner__banner {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.banner {
-    /* position: absolute; */
-    /* top: 60px; */
-    /* left: 90px; */
-    /* width: 265px; */
-    /* position: fixed; */
-
-}
-
 .navbar-toggler {
     background-color: #956600;
 }
 
-.auth__label {
-    color: #C2B92C !important;
-    font-family: OldOakAP;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-}
 
-.auth__title {
-    font-family: OldOakAP;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-}
 
-.form-text {
-    color: #C2B92C !important;
-    font-family: OldOakAP;
-    font-size: 14px;
+@media (max-width:1440px) {
+
+    .logo__title,
+    .banner__column {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
 }
