@@ -14,100 +14,107 @@
     <title>Сайт клана Инквизиции</title>
 </head>
 
-<body>
-    <header class="">
+<body class="bg-monk">
+    <header class="header">
+
         <div class="logo__navbar header__column">
-            <nav class="navbar navbar-expand-lg header__nav " id="header__navbar">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Инквизиция">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+            <div class="header__logo dark fire" id="logo">
+                <a href="#" class="logo__title Blazing">Инквизиция</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg header__nav  " id="header__navbar">
+            <div class="container-fluid">
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item header__nav-item">
-                                <a class="nav-link header__nav-link active" aria-current="page" href="#">Главная</a>
-                            </li>
-                            <li class="nav-item header__nav-item dropdown">
-                                <a class="nav-link dropdown-toggle header__nav-link" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Клан</a>
-                                <ul class="dropdown-menu header__dropdown-menu">
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Состав</a></li>
-                                    <li><a class="dropdown-item header__dropdown-item " href="#">Устав</a></li>
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Вступление</a>
-                                    </li>
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">История</a></li>
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Образы</a></li>
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Чемпионат
-                                            арены</a>
-                                    </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Инквизиция">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand header__navbar-brand hidden" id="brand" href="#">Инквизиция</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 header__mr">
+                        <li class="nav-item header__nav-item">
+                            <a class="nav-link header__nav-link " aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item header__nav-item dropdown">
+                            <a class="nav-link dropdown-toggle header__nav-link active" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Клан</a>
+                            <ul class="dropdown-menu header__dropdown-menu">
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Состав</a></li>
+                                <li><a class="dropdown-item header__dropdown-item " href="#">Устав</a></li>
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Вступление</a>
+                                </li>
+                                <li><a class="dropdown-item header__dropdown-item" href="#">История</a></li>
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Образы</a></li>
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Чемпионат
+                                        арены</a>
+                                </li>
 
-                                </ul>
-                            </li>
+                            </ul>
+                        </li>
 
-                            <li class="nav-item header__nav-item">
-                                <a class="nav-link header__nav-link" href="#">Дипломатия</a>
-                            </li>
-                            <li class="nav-item header__nav-item">
-                                <a class="nav-link header__nav-link" href="#">Форум</a>
-                            </li>
-                            <li class="nav-item header__nav-item">
-                                <a class="nav-link header__nav-link" href="#">Примерочная</a>
-                            </li>
-                            <li class="nav-item header__nav-item">
-                                <a class="nav-link header__nav-link" href="#">Осады</a>
-                            </li>
+                        <li class="nav-item header__nav-item">
+                            <a class="nav-link header__nav-link" href="#">Дипломатия</a>
+                        </li>
+                        <li class="nav-item header__nav-item">
+                            <a class="nav-link header__nav-link" href="#">Форум</a>
+                        </li>
+                        <li class="nav-item header__nav-item">
+                            <a class="nav-link header__nav-link" href="#">Примерочная</a>
+                        </li>
+                        <li class="nav-item header__nav-item">
+                            <a class="nav-link header__nav-link" href="#">Осады</a>
+                        </li>
 
-                            </li>
-                            <li class="nav-item  dropdown header__nav-item">
-                                <a class="nav-link  dropdown-toggle header__nav-link " href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Ресурсы Apeha</a>
+                        </li>
+                        <li class="nav-item  dropdown header__nav-item">
+                            <a class="nav-link  dropdown-toggle header__nav-link " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Ресурсы Apeha</a>
 
-                                <ul class="dropdown-menu header__dropdown-menu">
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Apeha.ru</a>
-                                    </li>
-                                    <li><a class="dropdown-item header__dropdown-item " href="#">Рейтинг
-                                            кланов</a>
-                                    </li>
+                            <ul class="dropdown-menu header__dropdown-menu">
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Apeha.ru</a>
+                                </li>
+                                <li><a class="dropdown-item header__dropdown-item " href="#">Рейтинг
+                                        кланов</a>
+                                </li>
 
-                                    <li><a class="dropdown-item header__dropdown-item" href="#">Библиотека
-                                            арены</a>
-                                    </li>
+                                <li><a class="dropdown-item header__dropdown-item" href="#">Библиотека
+                                        арены</a>
+                                </li>
 
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <a class="navbar-brand header__navbar-brand hidden" id="brand" href="#">Инквизиция</a>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
 
-
-            </nav>
-            <div class="header__logo-banner">
-
-                <a href="#" class="logo__title ts" id="logo">Инквизиция</a>
             </div>
 
-        </div>
+
+        </nav>
+
 
     </header>
 
-    <main class="main__block row ">
+    <main class="main__block ">
 
-        <section class="banner  main__column col-md-auto col-xl-3 col-md-1 ">
-            <div class="banner-img_sticky auth__section">
-                <h3 class="auth__title text-center">Наш дилер</h3>
-                <img src="./img/banner.png" alt="" class="banner-img_sticky">
+        <section class="sidebar col-lg-3 col-xl-2 sticky">
+
+            <div class=" card-sidebar m-4 text-center pb-3">
+                <h3 class="sidebar__title text-center p-3">Наш дилер</h3>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/banner.png" alt="" class="banner__diler">
+                </a>
             </div>
+
+
         </section>
-        <section class="col-xl-6 col-md-10 content ">
+        <section class="col-sm-11 col-lg-7 col-xl-7 col-md-7 content bg-content">
             <div class="list__news ">
-                <div class="card mb-3 px-3 py-3 post_news">
+                <div class="card border-dark mb-3  card__news">
+                    <div class="news__body">
 
-                    <div class="card-body">
-                        <h5 class="card-title header__post">Заголовок новости
-                            <small class="text-muted">Последнее обновление 3 мин. назад</small>
+                        <h5 class="news__title">Заголовок новости
+                            <small class="post__time">Последнее обновление 3 мин. назад</small>
                         </h5>
 
                         <p class="card-text body__post">Анонс новости</p>
@@ -115,83 +122,97 @@
                     </div>
 
                     <img src="http://inkviz-klan.ru/gs_engine/files/1/1/db4b4afb55da48e2496a22fd67390c9b.jpeg"
-                        class="card-img-bottom" alt="...">
-                    <div class="card-footer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-chat-square" viewBox="0 0 16 16">
-                            <path
-                                d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-                            <small class="px-2">5</small>
-                        </svg>
+                        class="card-img-bottom news__img img-fluid img-thumbnail" alt="...">
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="news__comment">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chat-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <small class="px-2">5</small>
+                            </svg>
+                        </div>
+                        <a href="#" class="card-link">Подробнее</a>
                     </div>
                 </div>
-                <div class="card mb-3 px-3 py-3 post_news">
+                <div class="card border-dark mb-3  card__news">
+                    <div class="news__body">
 
-                    <div class="card-body">
-                        <h5 class="card-title header__post">Заголовок новости
-                            <small class="text-muted">Последнее обновление 3 мин. назад</small>
+                        <h5 class="news__title">Заголовок новости
+                            <small class="post__time">Последнее обновление 3 мин. назад</small>
                         </h5>
 
                         <p class="card-text body__post">Анонс новости</p>
 
                     </div>
+
                     <img src="http://inkviz-klan.ru/gs_engine/files/1/1/db4b4afb55da48e2496a22fd67390c9b.jpeg"
                         class="card-img-bottom" alt="...">
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="news__comment">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chat-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <small class="px-2">5</small>
+                            </svg>
+                        </div>
+                        <a href="#" class="card-link">Подробнее</a>
+                    </div>
                 </div>
-                <div class="card mb-3 px-3 py-3 post_news">
+                <div class="card border-dark mb-3  card__news">
+                    <div class="news__body">
 
-                    <div class="card-body">
-                        <h5 class="card-title header__post">Заголовок новости
-                            <small class="text-muted">Последнее обновление 3 мин. назад</small>
+                        <h5 class="news__title">Заголовок новости
+                            <small class="post__time">Последнее обновление 3 мин. назад</small>
                         </h5>
 
                         <p class="card-text body__post">Анонс новости</p>
 
                     </div>
+
                     <img src="http://inkviz-klan.ru/gs_engine/files/1/1/db4b4afb55da48e2496a22fd67390c9b.jpeg"
                         class="card-img-bottom" alt="...">
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="news__comment">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chat-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <small class="px-2">5</small>
+                            </svg>
+                        </div>
+                        <a href="#" class="card-link">Подробнее</a>
+                    </div>
                 </div>
-                <div class="card mb-3 px-3 py-3 post_news">
+                <div class="card border-dark mb-3  card__news">
+                    <div class="news__body">
 
-                    <div class="card-body">
-                        <h5 class="card-title header__post">Заголовок новости
-                            <small class="text-muted">Последнее обновление 3 мин. назад</small>
+                        <h5 class="news__title">Заголовок новости
+                            <small class="post__time">Последнее обновление 3 мин. назад</small>
                         </h5>
 
                         <p class="card-text body__post">Анонс новости</p>
 
                     </div>
+
                     <img src="http://inkviz-klan.ru/gs_engine/files/1/1/db4b4afb55da48e2496a22fd67390c9b.jpeg"
                         class="card-img-bottom" alt="...">
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="news__comment">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chat-square" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                <small class="px-2">5</small>
+                            </svg>
+                        </div>
+                        <a href="#" class="card-link">Подробнее</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="main__column col-xl-3 col-md-1 auth">
-            <div class="sticky auth__section">
-                <h3 class="auth__title">Авторизация</h3>
-                <form class="px-4 py-3 ">
-                    <div class="mb-3">
-                        <label for="exampleDropdownFormEmail1" class="form-label auth__label">Адрес
-                            электронной почты</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
-                            placeholder="email@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleDropdownFormPassword1" class="form-label auth__label">Пароль</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword1"
-                            placeholder="Пароль">
-                    </div>
 
-                    <button type="submit" class="btn btn-reset header__dropdown-item">Войти</button>
-
-
-                </form>
-                <div class="dropdown-divider"></div>
-                <a class="header__dropdown-item px-4 py-3 " href="#">Впервые здесь?
-                    Зарегистрироваться</a>
-                <a class="header__dropdown-item px-4 py-3 " href="#">Забыли пароль?</a>
-            </div>
-        </section>
     </main>
 
     <footer>

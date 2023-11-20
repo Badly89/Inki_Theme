@@ -1,31 +1,91 @@
+.main__block {
+    display: flex;
+    margin-top: 25px;
+}
+
+
 .content {
-    max-width: calc(880 / 1770 * 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 18px;
-    /* background: rgba(122, 119, 119, 0.38); */
+    margin-left: 45px;
 }
 
-.main__block {
-    display: flex;
-    margin-top: 25px;
-    justify-content: space-between;
+.bg-content {
+    background: url("../img/bg_content.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-.post_news {
-    background: rgb(238 233 221);
-    padding: 50px 50px;
-    border-radius: 18px;
+.sidebar {
+    margin-left: 50px;
+    background: url("../img/bg_sidebar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    height: 70vh;
 }
 
-.body__post,
-.header__post {
-    border-radius: 10px;
-    background: rgb(222 211 186);
-    box-shadow: 7px 4px 4px 0px rgba(0, 0, 0, 0.32);
+.card-sidebar {
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(213, 188, 147, 0.91);
     background-blend-mode: luminosity;
+}
+
+.sidebar__title {
+    padding: 0;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgba(122, 119, 119, 0.61);
+    background: #39190D;
+
+    color: #C2B92C;
+    font-family: OldOakAP;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.list__news {
+    padding: 30px;
+}
+
+
+.card__news {
+    border-radius: 12px;
+    background: rgba(213, 188, 147, 0.91);
+    box-shadow: (2px 2px 2px rgba(0, 0, 0, 0.86));
+    border: 1px solid #39190D;
+}
+
+.news__title,
+.post__time {
+
+    font-family: OldOakAP;
+    padding: 20px;
+    color: #C2B92C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    border-radius: 10px 10px 0px 0px;
+    background: #39190D;
+    background-blend-mode: luminosity;
+
+}
+
+
+.news__title::before {
+    content: url("../img/skull.svg");
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.post__time {
+    font-size: 14px;
 }
 
 .body__post {
@@ -47,51 +107,25 @@
 
 .sticky {
     position: sticky;
-    top: 50px;
+    top: 100px;
     left: 0;
     right: 0;
 }
 
-.banner-img_sticky {
-    width: 250px;
-    position: sticky;
-    top: 50px;
-    left: 200px;
-    right: 0;
-}
-
-.auth {
-    display: flex;
-    align-items: flex-start;
-    padding: 0 25px;
-}
-
-.auth__section {
-    border-radius: 16px;
-    background: rgba(57, 25, 13, 0.55);
-    padding: 25px 0;
-}
-
-.auth__label {
-    color: #C2B92C !important;
-    font-family: OldOakAP;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-}
-
-.auth__title {
-    padding: 15px;
-    color: #C2B92C;
-    font-family: OldOakAP;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-}
 
 .form-text {
     color: #C2B92C !important;
     font-family: OldOakAP;
     font-size: 14px;
+}
+
+@media (max-width:768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
 }
