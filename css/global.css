@@ -50,6 +50,11 @@ body {
 
 }
 
+.list-reset {
+    padding: 0;
+    list-style: none;
+}
+
 @media (max-width:1024px) {
     body {
         background: none;

@@ -48,6 +48,20 @@
     line-height: 16px;
 }
 
+.sidebar__list-item {
+    font-family: OldOakAP;
+}
+
+.sidebar__list-item {
+    font-family: OldOakAP;
+
+}
+
+.sidebar__list-link {
+    font-size: 18px;
+    color: #39190D;
+}
+
 .list__news {
     padding: 30px;
 }
@@ -60,13 +74,13 @@
     border: 1px solid #39190D;
 }
 
-.news__title,
-.post__time {
-
+.news__title {
+    display: flex;
+    align-items: center;
     font-family: OldOakAP;
     padding: 20px;
     color: #C2B92C;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
@@ -79,13 +93,15 @@
 
 .news__title::before {
     content: url("../img/skull.svg");
-    padding-right: 10px;
+    margin-right: 15px;
     width: 20px;
     height: 20px;
 }
 
 .post__time {
-    font-size: 14px;
+    font-family: OldOakAP;
+    padding: 20px;
+    font-size: 16px;
 }
 
 .body__post {
@@ -128,4 +144,22 @@
         margin-left: 0;
     }
 
+}
+
+@media (max-width:576px) {
+    .news__comment {
+        font-size: 12px;
+    }
+
+    .news__title {
+        font-size: 18px;
+    }
+
+    .card-link {
+        font-size: 12px;
+    }
+
+    .post__time {
+        font-size: 12px;
+    }
 }
